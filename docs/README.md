@@ -1,0 +1,11 @@
+# OctoAcme Project Management — Brief Overview
+
+OctoAcme follows a customer-first, iterative project lifecycle: Initiation → Planning → Execution → Release → Retrospective. Projects start with a Project One‑pager that captures the problem statement, success metrics, stakeholders, and a high‑level timeline. Planning breaks approved initiatives into prioritized, estimated backlog items with a clear Definition of Done and release milestones, while maintaining a living risk register.
+
+Ownership and roles are explicit: Project Managers coordinate delivery, schedules, and risks; Product Managers define outcomes, prioritize the backlog, and measure success; Developers implement features and ensure code quality; QA/Test Engineers validate acceptance criteria; and Stakeholders provide approvals and business context. Supporting personas (Engineering Leads, UX, Compliance, Support) participate as needed and each project maintains single‑source artifacts—charter, roadmap, backlog, risk register, and checklists—stored in the project repository.
+
+Communication relies on a predictable cadence and clear escalation paths: short standups for daily progress and blockers, weekly PM–PdM syncs for alignment, regular demos and milestone reviews, and monthly stakeholder updates. Status and incident messages use templated formats (progress, next steps, risks, decisions needed) and escalations move from team triage → PM/Product Lead → sponsor/executive for business‑impacting issues.
+
+Quality is embedded across the lifecycle. Automated CI runs unit and integration tests and security scans; pull requests are small, have clear acceptance criteria, and require peer review and CI gates before merging. Releases follow checklists with staging smoke tests, rollback plans, and post‑deploy verifications. Retrospectives after milestones capture learnings and convert them into tracked action items to continuously improve processes.
+
+For full process details, see the linked documents in this folder (Project Initiation, Planning, Execution & Tracking, Risks & Communication, Release & Deployment, Roles & Personas, and Retrospectives).
